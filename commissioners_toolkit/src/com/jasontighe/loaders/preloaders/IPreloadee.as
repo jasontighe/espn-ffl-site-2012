@@ -1,0 +1,1 @@
+package com.jasontighe.loaders.preloaders{	public interface IPreloadee 	{		function init():void	}}

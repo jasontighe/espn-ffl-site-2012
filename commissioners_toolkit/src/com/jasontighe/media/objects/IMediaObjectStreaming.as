@@ -1,0 +1,1 @@
+package com.jasontighe.media.objects {	public interface IMediaObjectStreaming extends IMediaObject 	{				function get server():String		function set bandwidthThreshold(thresh:Number):void	}}

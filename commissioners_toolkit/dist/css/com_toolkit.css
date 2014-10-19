@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+
+object { outline:none; }
+
+html, body{	
+	margin: 0;
+	padding: 0;	
+	text-align: center;
+	background: #f3f3f3;
+}
+
+/***********************
+/* CONTAINER
+/***********************/
+#container{	
+	margin: 0 auto;
+	width: 990px;
+	height: 1000px;
+}
+
+/***********************
+/* FLASH CONTENT
+/***********************/
+
+#container #flashContent{
+	margin-top: 196px;
+	margin-left: 0px;
+	width: 990px;
+	height: 100%;
+	padding: 0px;
+}

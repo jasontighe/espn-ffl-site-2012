@@ -1,0 +1,560 @@
+/* ESPN FFL Commissioner Toolkit Flash CSS file */
+
+.toutLIDesc {
+	font-family: DroidSansProBold;
+	font-size: 14px;
+	color: #ffffff;
+	leading: 2;
+}
+.toutEFDesc {
+	font-family: DroidSansProBold;
+	font-size: 14px;
+	color: #ffffff;
+	leading: 1;
+}
+.toutEFDemo {
+	font-family: Stratum2Black;
+	font-size: 14px;
+	color: #ffffff;
+}
+
+.roundRectButton {
+	font-family:Stratum2Black;
+	color:#ffffff;
+	/* font size set programmatically */
+}
+.roundRectButtonWider {
+	font-family:Stratum2Black;
+	color:#ffffff;
+	letter-spacing: 0.8;
+	/* font size set programmatically */
+}
+
+.bubbleButtonGreen {
+	font-family:Stratum2Black;
+	font-size:23px;
+	color:#ffffff;
+}
+.bubbleButtonGreenOver {
+	font-family:Stratum2Black;
+	font-size:23px;
+	color:#d9e3d0;
+}
+.bubbleButtonGray {
+	font-family:Stratum2Black;
+	font-size:23px;
+	color:#515151;
+}
+.bubbleButtonGrayOver {
+	font-family:Stratum2Black;
+	font-size:23px;
+	color:#ffffff;
+}
+.bubbleButtonRed {
+	font-family:Stratum2Black;
+	font-size:26px;
+	color:#bd2a39;
+}
+.bubbleButtonRedOver {
+	font-family:Stratum2Black;
+	font-size:26px;
+	color:#ffffff;
+}
+
+
+.redButtonText {
+	font-family:Stratum2Black;
+	color:#bd2a39;
+	/* font size gets set programmatically */
+}
+.grayButtonText {
+	font-family:Stratum2Black;
+	color:#515151;
+	/* font size gets set programmatically */
+}
+.greenButtonText {
+	font-family:Stratum2Black;
+	color:#FFFFFF;
+	/* font size gets set programmatically */
+}
+.whiteButtonText {
+	font-family:Stratum2Black;
+	color:#FFFFFF;
+	/* font size gets set programmatically */
+}
+
+
+/* HEADER */
+.quickNavText {
+	font-family:Stratum2Black;
+	color:#373737;
+	font-size:14px;
+	/* font size gets set programmatically */
+}
+.quickNavTextActive {
+	font-family:Stratum2Black;
+	color:#619b15;
+	font-size:14px;
+	/* font size gets set programmatically */
+}
+.settingsButton {
+	font-family:Stratum2Black;
+	color:#373737;
+	font-size:14px;
+}
+.settingsButtonOver {
+	font-family:Stratum2Black;
+	color:#ffffff;
+	font-size:14px;
+}
+
+
+
+/* ALERT DIALOG */
+
+.alertDialogTitle {
+	font-family:Stratum2Medium;
+	font-size:25px;
+	color:#254c0f;
+}
+.alertDialogCopy {
+	font-family:Stratum2Bold;
+	font-size:18px;
+	color:#241f20;
+}
+.alertDialogCopyRed {
+	font-family:Stratum2Medium;
+	font-size:16px;
+	color:#a31928;
+}
+.alertDialogCommissionersClickHere {
+	font-family:BlenderProMedium;
+	font-size: 13px;
+	color: #101010;
+	font-style: italic;
+}
+
+.notLoggedInCopy {
+	font-family:Stratum2Bold;
+	font-size:16px;
+	color:#241f20;
+}
+
+/* FACEBOOK SETTINGS DIALOG */
+
+.dialogMapperTitle {
+	font-family:Stratum2Bold;
+	font-size:33px;
+	color:#254c0f;
+}
+.dialogMapperCopy {
+	font-family:Stratum2Bold;
+	font-size:17px;
+	color:#241f20;
+}
+.dialogMapperHeading {
+	font-family:Stratum2Black;
+	font-size:18px;
+	color:#241f20;
+}
+.dialogMapperTeamButton {
+	font-family:Stratum2Black;
+	font-size:12px;
+	color:#241f20;
+}
+.dialogMapperTeamButtonOn {
+	font-family:Stratum2Black;
+	font-size:12px;
+	color:#ffffff;
+}
+.dialogMapperNoDraft {
+	font-family:Stratum2Black;
+	font-size:20px;
+	color:#bd2a39;
+	text-align: left;
+}
+
+.fbSettingsItem {
+	font-family:Stratum2Bold;
+	font-size:33px;
+	color:#254c0f;
+}
+.fbFriend {
+	font-family:Stratum2Black;
+	font-size:18px;
+	color:#000000;
+}
+
+
+/* ENFORCER PICKER DIALOG */
+
+.enforcerVideoTitle {
+	font-family:Stratum2Bold;
+	font-size:24px;
+	color:#241f20;
+	thickness:25;
+}
+.enforcerThumb {
+	font-family:Stratum2Bold;
+	font-size:12px;
+	color:#ffffff;
+	text-align:center;
+}
+.enforcerDialogTitle {
+	font-family:Stratum2Medium;
+	font-size:25px;
+	color:#254c0f;
+}
+.enforcerDialogSub {
+	font-family:Stratum2Medium;
+	font-size:18px;
+	color:#241f20;
+}
+.enforcerDialogCopy {
+	font-family:Stratum2Medium;
+	font-size:20px;
+	color:#254c0f;
+}
+.enforcerDialogInput {
+	font-family:Stratum2Bold;
+	font-size:14px;
+	color:#000000;
+}
+.enforcerAllButton {
+	font-family:Stratum2Bold;
+	font-size:18px;
+	color:#241f20;
+}
+.enforcerGetUrl {
+	font-family:Stratum2Black;
+	font-size:18px;
+	color:#241f20;
+}
+
+
+/* REPORT CARD */
+
+.reportCardSubRed {
+	font-family:DroidSansProBold;
+	font-size:14px;
+	color:#bd2a39;
+}
+.reportCardSubWhite {
+	font-family:DroidSansProBold;
+	font-size:14px;
+	color:#ffffff;
+	leading:3.0;
+}
+.reportCardBerryGrade {
+	font-family:BlenderProHeavy;
+	font-size:18px;
+	color:#bd2a39;
+}
+.reportCardHeader {
+	font-family:BlenderProHeavy;
+	font-size: 20px;
+	color: #000000;
+}
+.reportCardTableTeam {
+	font-family:BlenderProMedium;
+	font-size: 16px;
+	color: #241f20;
+	text-align:left;
+}
+.reportCardTableGrade {
+	font-family:BlenderProHeavy;
+	font-size: 30px;
+	color: #bd2a39 ;
+	text-align:left;
+}
+.reportCardTableComment {
+	font-family:BlenderProMedium;
+	font-size: 13px;
+	color: #241f20;
+	thickness:100;
+}
+.reportCardFinePrint {
+	font-family:BlenderProMedium;
+	font-size: 9px;
+	color: #101010;
+	font-style: italic;
+	thickness:50;
+}
+.reportCardTeamDetailTitle {
+	font-family:BlenderProHeavy;
+	font-size: 20px;
+	color: #bd2a39;
+}
+.reportCardTeamDetailName {
+	font-family:BlenderProMedium;
+	font-size: 16px;
+	color: #241f20;
+}
+.reportCardTeamDetailHeader {
+	font-family:BlenderProHeavy;
+	font-size: 14px;
+	color: #878787;
+}
+.reportCardTeamDetailText {
+	font-family: BlenderProBook;
+	font-size: 15px;
+	color: #000000;
+}
+.reportCardTeamDetailTextCentered {
+	font-family: BlenderProBook;
+	font-size: 15px;
+	color: #000000;
+	text-align:center;
+}
+.reportCardFinalTitle {
+	font-family: BlenderProHeavy;
+	font-size: 50px;
+	color:#b60025;
+}
+.reportCardFinalHeader {
+	font-family:BlenderProHeavy;
+	font-size:20px;
+	color:#241f20;
+}
+.reportCardFinalComment {
+	font-family:BlenderProMedium;
+	font-size:14px;
+	color:#241f20;
+}
+.reportCardCommentTooltip {
+	font-family:DroidSansProBold;
+	font-size:14px;
+	color:#242017;
+	text-align:center;
+}
+
+
+/* LEAGUE INVITER */
+.liDesc {
+	font-family: DroidSansProBold;
+	font-size: 14px;
+	color: #FFFFFF;
+	leading: 6;
+}
+.liTabs {
+	font-family: Stratum2Black;
+	font-size: 24px;
+	color: #FFFFFF;
+}
+.liTitles {
+	font-family: Stratum2Bold;
+	font-size: 33px;
+	color: #FFFFFF;
+}
+.liIntroTerms {
+	font-family:BlenderProMedium;
+	font-size: 9px;
+	color: #FFFFFF;
+	thickness:50;
+}
+.liIntroSteps {
+	font-family: DroidSansPro;
+	font-size: 13px;
+	color: #FFFFFF;
+	leading: 2;
+}
+.liAddWebcamChrome {
+	font-family:BlenderProMedium;
+	font-size: 10px;
+	color: #FFFFFF;
+	font-style: italic;
+}
+.liAddWebcamDesc {
+	font-family: DroidSansProBold;
+	font-size: 13px;
+	color: #FFFFFF;
+	leading: 1;
+}
+.liPositionerDesc {
+	font-family: DroidSansProBold;
+	font-size: 13px;
+	color: #FFFFFF;
+	leading: 4;
+}
+.liLearnDesc {
+	font-family: DroidSansProBold;
+	font-size: 13px;
+	color: #FFFFFF;
+	leading: 4;
+}
+.liLearnSteps {
+	font-family: DroidSansProBold;
+	font-size: 13px;
+	text-align: center;
+	color: #FFFFFF;
+	leading: 3;
+}
+.inviter-bubble {
+	font-family: DroidSansPro;
+	font-size: 13px;
+	color: #FFFFFF;
+	leading: 2;
+}
+
+.liWebcamTimer {
+	font-family: Stratum2Black;
+	font-size: 20px;
+	color: #bd2a39;
+}
+.liWebcamQuestions {
+	font-family: Stratum2Bold;
+	font-size: 22px;
+	color: #FFFFFF;
+}
+.liQuestionBox {
+	font-family: Stratum2Bold;
+	font-size: 22px;
+	color: #FFFFFF;
+}
+.liWebcamWait {
+	font-family: Stratum2Black;
+	font-size: 50px;
+	color: #bd2a39;
+}
+.liWebcamPressIf {
+	font-family: DroidSansPro;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+/* try again/save continue dialog */
+.liDialogTryTitle {
+	font-family: Stratum2Black;
+	font-size: 25px;
+	color: #254c0f;
+}
+.liDialogTryDesc {
+	font-family: Stratum2Medium;
+	font-size: 18px;
+	color: #000000;
+}
+.liDialogTryPerc {
+	font-family: Stratum2Medium;
+	font-size: 10px;
+	color: #AA0000;
+}
+.liDialogTryCurrentFrame {
+	font-family: Stratum2Medium;
+	font-size: 10px;
+	color: #434343;
+}
+.liDialogTryTotalFrames {
+	font-family: Stratum2Medium;
+	font-size: 10px;
+	color: #777777;
+}
+
+/* photo upload dialog */
+.liUploadTitle {
+	font-family: Stratum2Medium;
+	font-size: 25px;
+	color: #254c0f;
+}
+.liUploadDesc {
+	font-family: Stratum2Medium;
+	font-size: 18px;
+	color: #241f20;
+}
+.liUploadFilename {
+	font-family: Stratum2Medium;
+	font-size: 18px;
+	color: #000000;
+}
+.liUploadFooter {
+	font-family: Stratum2Medium;
+	font-size: 12px;
+	color: #241f20;
+}
+.liUploadError {
+	font-family: Stratum2Medium;
+	font-size: 12px;
+	color: #AA0000;
+}
+.liUploadWaiting {
+	font-family: Stratum2Medium;
+	font-size: 12px;
+	color: #00AA00;
+}
+.liUploadBtn {
+	font-family: Stratum2Medium;
+	font-size: 23px;
+	color: #241f20;
+}
+.liUploadDeleteBtn {
+	font-family: Stratum2Medium;
+	font-size: 23px;
+	color: #241f20;
+}
+.liUploadSkipBtn {
+	font-family: Stratum2Medium;
+	font-size: 20px;
+	color: #254c0f;
+}
+
+.liCompletedDesc {
+	font-family: DroidSansProBold;
+	font-size: 14px;
+	text-align: center;
+	color: #FFFFFF;
+	leading: 3;
+}
+
+.liUDebuggerTitle {
+	font-family: Stratum2Bold;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+.liUDebuggerMessage {
+	font-family: Stratum2Bold;
+	font-size: 14px;
+	color: #00FF00;
+}
+.liUDebuggerUrl {
+	font-family: Stratum2Bold;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+/* premade */
+.liPremadeTitle {
+	font-family: Stratum2Bold;
+	font-size: 20px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.liPremadeDesc {
+	font-family: DroidSansProBold;
+	font-size: 13px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.liPremadeVideoTitle {
+	font-family: Stratum2Black;
+	font-size: 14px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+/* preview */
+.previewTitle {
+	font-family: Stratum2Bold;
+	font-size: 33px;
+	color: #FFFFFF;
+}
+
+/* deleted */
+.deleteDialogTitle {
+	font-family: Stratum2Medium;
+	font-size: 25px;
+	color: #bd2a39;
+}
+.deleteDialogDesc {
+	font-family: Stratum2Medium;
+	font-size: 18px;
+	color: #241f20;
+}

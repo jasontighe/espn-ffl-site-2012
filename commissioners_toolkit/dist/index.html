@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+	<head>
+	
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<title>ESPN Fantasy Football : Commissioner's Toolkit</title>
+		
+		<link rel="stylesheet" href="./css/com_toolkit.css" type="text/css" charset="utf-8" />
+
+		<!-- jQuery required for Flash 'AjaxProxyService' (used during debugging) -->
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+		<script type="text/javascript" src="js/swfobject.js"></script>
+	    
+	    <script type="text/javascript">			
+			var flashvars = {};
+			// flashvars.CONFIG = "http://g.espncdn.com/s/ffllm/12/commissionertoolkit/flash/xml/config.xml";
+			
+			var params = {};
+			params.menu = "false";
+			params.quality = "high";
+			params.scale = "noscale";
+			params.salign = "tl";
+			params.wmode = "window";
+			params.bgcolor = "#FFFFFF";
+			params.allowFullScreen = "true";
+			params.allowscriptaccess = "always";
+	
+			var attributes = {};
+			
+			swfobject.embedSWF("./Shell.swf", "flashContent", "990", "1000", "10.0.0", "swf/expressInstall.swf", flashvars, params, attributes);
+		</script>
+		
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-33946700-1']);
+			_gaq.push(['_setDomainName', 'none']); // * for testing on localhost
+			_gaq.push(['_trackPageview']);
+			_gaq.push(['_trackPageview', 'hello_test_thursday11pm']);
+			
+			(function() {
+			  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+
+	</head>
+		
+	<body>
+		<div id="container">
+			<div id="flashContent">
+			</div>
+		</div>
+	</body>
+	
+</html>

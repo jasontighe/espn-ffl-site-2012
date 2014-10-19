@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+		
+	<isPressPreview>false</isPressPreview>
+	
+	<notLoggedInUrlSubstring>commissionertoolkitlanding</notLoggedInUrlSubstring>
+
+	<bg_color><![CDATA[FFFFFF]]></bg_color>
+	<create_league>http://games.espn.go.com/ffl/welcome/createleague</create_league>
+	<apparel>http://espnfantasyfootball.logosoftwear.com/</apparel>
+	<default_season>2012</default_season>
+	<league_id
+		fake="012345"
+		useRandom="true"
+		useReal="false	"
+	/>
+
+	<webcam
+		uploadFlvs="true"
+		flvProgress="true"
+		cookieLI="true"
+	/>
+
+	
+	<subloads>
+		<content
+			url="./flash/xml/content.xml"
+		/>
+		<assets
+			url="./flash/swf/Assets.swf"
+		/>
+		<assets2
+			url="./flash/swf/Assets2.swf"
+		/>
+		<fonts
+			url="./flash/swf/Fonts.swf"
+		/>
+		<styles
+			url="./flash/css/ffl_flash_styles.css"
+		/>
+		<reportCard
+			url="./flash/json/reportcard_staticdata.json" 
+		/>
+		<encoding
+			url="./flash/xml/encoding_test2.xml"
+		/>
+	</subloads>
+	
+	<web_services
+		initializeURL="initialize.php"
+		webcamURL="webcam.php"
+		resetURL="reset.php"
+		statusURL="status.php"
+		photoURL="photo.php"
+		premadeURL="create_premade.php"
+	/>
+	
+
+	<apiUrls>
+		<mappingsGetString 
+			url="http://ffl.sportsr.us/get_string.php" 
+		/>
+		<mappingsSetString 
+			url="http://ffl.sportsr.us/set_string.php" 
+		/>
+		<s3AccessKey
+			value="AKIAITDMF2HBDOXP6S4Q"
+		/>
+		<s3BucketName
+			value="leetest"
+		/>
+	</apiUrls>
+	
+
+	<environment flashDomId="flashContent">
+
+		<item type="devlocal"
+			domainDetect="espn-ffl"
+			customService="http://games.qa.espn.go.com/ffl/api/custom/commissioner"
+			fbAppId="336253973118680"
+			fbCallback="http://espn-ffl.com/facebook_oauth_handler.html"
+			enforcerBaseUrlVideos="./flash/f4v/enforcer/"
+			liCustomServices="http://fflsvcs.dev.nyc.wk.com/"
+		/> 
+		<item type="devexternal"
+			domainDetect="dev.nyc.wk.com/"
+			customService="http://games.espn.go.com/ffl/api/custom/commissioner"
+			fbAppId="152133321590558"
+			fbCallback="http://ffl.dev.nyc.wk.com/qa/facebook_oauth_handler.html"
+			enforcerBaseUrlVideos="./flash/f4v/enforcer/"
+			liCustomServices="http://fflsvcs.dev.nyc.wk.com/"
+		/> 
+		<item type="espnqa"
+			domainDetect="games.qa.espn.go.com"
+			customService="http://games.qa.espn.go.com/ffl/api/custom/commissioner"
+			fbAppId="503043186377002"
+			fbCallback="http://games.qa.espn.go.com/s/ffllm/12/commissionertoolkit/facebook_oauth_handler.html"
+			enforcerBaseUrlVideos="http://g.espncdn.com/s/ffllm/12/commissionertoolkit/flash/f4v/enforcer/"
+			liCustomServices="http://staging.ffl.sportsr.us/"	
+		/> 
+		<item type="espnprod"
+			domainDetect="games.espn.go.com"
+			customService="http://games.espn.go.com/ffl/api/custom/commissioner"
+			fbAppId="391283654259244"
+			fbCallback="http://games.espn.go.com/ffl/commissionertoolkit/facebook_oauth_handler.html"
+			enforcerBaseUrlVideos="http://g.espncdn.com/s/ffllm/12/commissionertoolkit/flash/f4v/enforcer/"
+			liCustomServices="http://ffl.sportsr.us/"
+		/> 
+		<item type="jasontighe"
+			domainDetect="jasontighe.com"
+			customService="http://games.espn.go.com/ffl/api/custom/commissioner"
+			fbAppId="391283654259244"
+			fbCallback="http://espn-ffl.com/facebook_oauth_handler.html"
+			enforcerBaseUrlVideos="./flash/f4v/enforcer/"
+			liCustomServices="http://ffl.sportsr.us/"
+		/> 
+
+	</environment>
+	
+</data>

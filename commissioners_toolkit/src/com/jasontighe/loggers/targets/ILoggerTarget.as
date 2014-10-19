@@ -1,0 +1,1 @@
+package com.jasontighe.loggers.targets {	import com.jasontighe.loggers.LevelObject;			/**	 * ILoggerTarget Implementation	 * Implementation for all Logger Target	 * 	 * @author Ronnie Liew	 */	public interface ILoggerTarget 	{		function get id():String;		function publish( level:LevelObject, obj:* ):void;			}}

@@ -1,0 +1,1 @@
+package com.jasontighe.loggers {	public class LevelObject 	{				public var level:String;		public var map:String;		public var index:uint;		public function LevelObject( level:String, map:String, index:uint )		{			this.level = level;			this.map = map;			this.index = index;		}	}}

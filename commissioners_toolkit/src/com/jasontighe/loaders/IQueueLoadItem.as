@@ -1,0 +1,1 @@
+package com.jasontighe.loaders {	public interface IQueueLoadItem	{		function load():void		function remove():void		function getUrl():String		function getLoadItem():*		function setContext( value:* ):void	}}

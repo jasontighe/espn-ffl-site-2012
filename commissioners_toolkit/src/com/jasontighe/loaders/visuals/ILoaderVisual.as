@@ -1,0 +1,1 @@
+package com.jasontighe.loaders.visuals{	public interface ILoaderVisual 	{		function show( ):void		function update( progress:Number ):void		function hide( ):void	}}

@@ -1,0 +1,1 @@
+package com.jasontighe.loaders.visuals{	import flash.display.DisplayObject;				public interface IPreloaderVisual extends ILoaderVisual	{		function getAnimation () : DisplayObject;	}}

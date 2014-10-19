@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<assets>
+	<questions>
+		<question>
+			<reactionvideo name="reaction_20s_listening">http://pc-upload.s3.amazonaws.com/c135375665fb68cdcbb255fde8a71bd1_29573.f4v?nocopy</reactionvideo>
+		</question>
+		<question>
+			<questionvideo name="personalized_question_3">http://pc-upload.s3.amazonaws.com/279fc9289d2a993d3b73daf0fef29c76_29578.f4v?nocopy</questionvideo>
+		</question>
+		<question>
+			<reactionvideo name="reaction_12s_shrug">http://pc-upload.s3.amazonaws.com/790bf552cf19684edaa8a91606d547b7_29581.f4v?nocopy</reactionvideo>
+			<reactionvideo name="reaction_10s_yawn">http://pc-upload.s3.amazonaws.com/1c237c319168fbf273d447b55d004ecc_29582.f4v?nocopy</reactionvideo>		
+		</question>
+		<question>
+		
+		</question>
+		<question>
+			<reactionvideo name="reaction_12s_spin">http://pc-upload.s3.amazonaws.com/6257ceedc3629a355464c3e00d03d899_29592.f4v?nocopy</reactionvideo>
+			<reactionvideo name="reaction_14s_yawn">http://pc-upload.s3.amazonaws.com/2caab614addb2b163e5fa14aac06caab_29593.f4v?nocopy</reactionvideo>		
+		</question>
+		<question>
+			<reactionvideo name="reaction_14s_yawn">http://pc-upload.s3.amazonaws.com/2caab614addb2b163e5fa14aac06caab_29593.f4v?nocopy</reactionvideo>		
+			<reactionvideo name="reaction_15s_fan">http://pc-upload.s3.amazonaws.com/262923348100acdc636c8a2bd91cb624_29596.f4v?nocopy</reactionvideo>
+
+		</question>		
+	</questions>
+</assets>

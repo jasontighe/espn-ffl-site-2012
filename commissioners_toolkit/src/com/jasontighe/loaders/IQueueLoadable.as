@@ -1,0 +1,1 @@
+package com.jasontighe.loaders {	public interface IQueueLoadable 	{				function load():void				function remove():void				function setLoadCompleteEventHandler( value:Function = null ):void		function setLoadProgressEventHandler( value:Function = null ):void		function setLoadStartEventHandler( value:Function = null ):void	}}

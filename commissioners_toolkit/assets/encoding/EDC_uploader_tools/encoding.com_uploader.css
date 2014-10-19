@@ -1,0 +1,12 @@
+#prog_c1{
+	width:400px;
+	height:22px;
+	border:1px solid black;
+	font-weight:bold
+}
+
+#prog_c2{
+	height:22px;
+	text-align:center;
+	background-color:green;
+}

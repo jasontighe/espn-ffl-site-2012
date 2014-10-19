@@ -1,0 +1,76 @@
+{
+	"rankToPoints":
+	[
+		{ "maxRank": 5, "numPoints": 25 },  // rank is 1-indexed; player with a rank from 1-5 gets 25 points.
+		{ "maxRank": 10, "numPoints": 20 },  
+		{ "maxRank": 20, "numPoints": 15 },  
+		{ "maxRank": 30, "numPoints": 10 },  
+		{ "maxRank": 50, "numPoints": 8 },
+		{ "maxRank": 100, "numPoints": 6 },
+		{ "maxRank": 200, "numPoints": 5 },
+		{ "maxRank": 999999, "numPoints": 2 }
+	],
+
+	"berryRankings": "8439,2330,11289,12497,12514,2580,11258,11278,12483,10447,13232,11307,13229,13994,10456,11238,9646,5528,10195,10452,5549,14005,9705,12586,8442,13982,9638,5941,4582,5362,13983,8544,11270,2549,1428,13204,5679,14884,12569,13553,11754,10693,4481,14885,9838,13934,12601,4461,5529,5526,8479,13215,2622,12579,11461,13271,13216,11283,13230,10147,9588,11458,10467,5209,11237,12489,13203,13981,14051,11439,8475,12500,13211,11325,11282,14032,2578,12570,14153,9307,12556,9592,9400,13210,9613,11247,14105,11298,14875,5536,9597,5615,12525,10544,12898,14887,4527,10471,12503,14034,8419,13213,14056,14159,4512,12563,14028,12499,11674,4459,14874,12473,11257,13489,1231,12549,10475,12537,11373,10605,14053,14909,12561,13986,1433,10713,14193,14192,14129,10519,14907,14894,9611,13214,14912,14024,14021,6016,14900,11295,60025,60003,60034,60033,60021,60008,60020,60009,60002,60006,9704,10636,1716,2148,14322,11543,11122,9235,2300,4333,11329,13206,14888,14054,14625,2564,8664,14911,14167,14914,13228,12576,1056,10488,11256,14017,14895,14221,4529,14052,9684,14198,11252,11443,11678,5531,3593,11658,11264,10495,13727,13208,8416,14012,13197,13209,14881,12520,14891,14055",
+
+	"gradeComments":
+	{
+		"A+": [ 
+			"Bill Parcells couldn’t have done better.", 
+			"All the other teams are playing for second.", 
+			"Either someone is cooking bacon nearby or I smell a championship." 
+		],
+		"A": [ 
+			"Either someone is cooking bacon nearby or I smell a championship.", 
+			"Bill Parcells couldn’t have done better.", 
+			"Impressive.  Have you been reading Sun Tzu’s Art of War?" 
+		],
+		"A-": [ 
+			"Impressive.  Have you been reading Sun Tzu’s Art of War?", 
+			"Either someone is cooking bacon nearby or I smell a championship.", 
+			"Bill Parcells couldn’t have done better." 
+		],
+		"B+": [ 
+			"You picked a quality team.  Try not to screw it up during the season.", 
+			"Your draft was as solid as a fullback on a high-protein regimen.", 
+			"Go ahead, give yourself a high five." 
+		],
+		"B": [ 
+			"You may now look down on others with a feeling of superiority.", 
+			"Your draft was as solid as a fullback on a high-protein regimen.", 
+			"Go ahead, give yourself a high five." 
+		],
+		"B-": [ 
+			"Nice job. Your JV football coach would be proud.", 
+			"You picked a quality team.  Try not to screw it up during the season.", 
+			"Go ahead, give yourself a high five." 
+		],
+		"C+": [ 
+			"It’s okay. A lot of people fear success.", 
+			"Your draft was a lot like your high school dating record. Sub-par.", 
+			"Clearly, you have other plans during playoffs." 
+		],
+		"C": [ 
+			"You auto-drafted, right?  Tell me you auto-drafted.", 
+			"It’s okay. A lot of people fear success.", 
+			"Clearly, you have other plans during playoffs." 
+		],
+		"C-": [ 
+			"Clearly, you have other plans during playoffs.", 
+			"It’s okay. A lot of people fear success.", 
+			"You auto-drafted, right?  Tell me you auto-drafted." 
+		],
+		"D": [ 
+			"This is football. Not futbol.", 
+			"On the bright side, only two months until fantasy basketball starts!", 
+			"You should probably tell people your computer was hacked." 
+		],
+		"F": [ 
+			"You know, the CFL has a fantasy league too.", 
+			"Do you like losing?", 
+			"You don’t deserve my commentary."
+		]
+	}
+}
+
+// ... all 'static' data needed by ReportCard besides Berry rankings

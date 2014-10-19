@@ -1,0 +1,1 @@
+package com.jasontighe.loaders.preloaders{	import com.jasontighe.loaders.visuals.ILoaderVisual;			public interface IPreloader 	{				function getPreloaderVisual () : ILoaderVisual		function removePreloaderVisual ( ) : void	}}

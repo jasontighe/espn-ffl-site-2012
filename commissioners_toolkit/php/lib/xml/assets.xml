@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<assets>
+	<overlays>
+		<overlay name="splitscreen">http://pc-upload.s3.amazonaws.com/7a1604841ebe4142226355c14278d945_34964.png?nocopy</overlay>
+		<overlay name="ticker">http://pc-upload.s3.amazonaws.com/ce94b59c0edb64110612b7c3a401d30f_38623.f4v?nocopy</overlay>
+		<overlay name="super">http://pc-upload.s3.amazonaws.com/c0071c63d4e75ab95181c32d99202f52_38661.png?nocopy</overlay>
+	</overlays>
+	<intros>
+		<introvideo name="personalized_intro" length="22">http://pc-upload.s3.amazonaws.com/4eefc2389fc60ff6264640bb24203595_34968.f4v?nocopy</introvideo>
+	</intros>
+	<outros>
+		<outrovideo name="personalized_outro_a" length="31">http://pc-upload.s3.amazonaws.com/29062799f7d69c8b922152a2d86d558d_34361.f4v?nocopy</outrovideo>	
+		<outrovideo name="personalized_outro_b" length="31">http://pc-upload.s3.amazonaws.com/c99767fb1ab0d7993463b56556010790_34363.f4v?nocopy</outrovideo>	
+		<outrovideo name="personalized_outro_c" length="33">http://pc-upload.s3.amazonaws.com/d0f4ac7b91bb927fb7a2b4a15e8be002_34364.f4v?nocopy</outrovideo>	
+	</outros>
+	<questions>
+		<question id="question1">
+			<questionvideo name="personalized_question_1" length="6">http://pc-upload.s3.amazonaws.com/dd5c921cda133c69fb768dc9c8ef8655_38579.f4v?nocopy</questionvideo>
+			<questionvideo name="personalized_question_2a" length="3">http://pc-upload.s3.amazonaws.com/e35c7426171118ce3ec7248300708693_38580.f4v?nocopy</questionvideo>
+			<questionvideo name="personalized_question_2b" length="4">http://pc-upload.s3.amazonaws.com/f896e2e8d888902547fc86d25b3bc730_38582.f4v?nocopy</questionvideo>
+			<questionvideo name="personalized_question_2c" length="4">http://pc-upload.s3.amazonaws.com/e4c26342a77893f6f82cda1db428876a_38583.f4v?nocopy</questionvideo>
+			<reactionvideo name="reaction_20s_listening">http://pc-upload.s3.amazonaws.com/b0d0ac3a443e3384a11d9591cef3a4ed_38597.f4v?nocopy</reactionvideo>
+		</question>
+		<question id="question2">
+			<questionvideo name="personalized_question_3" length="20">http://pc-upload.s3.amazonaws.com/99bc86afe0e704f6e34a3f6180f5ed6a_38584.f4v?nocopy</questionvideo>
+		</question>
+		<question id="question3">
+			<questionvideo name="personalized_question_5a" length="7">http://pc-upload.s3.amazonaws.com/a2010f23d9d84920ea827bdfc38f8f85_38585.f4v?nocopy</questionvideo>
+			<questionvideo name="personalized_question_5b" length="4">http://pc-upload.s3.amazonaws.com/836e89f4190f5a29041a1c23361f61b9_38586.f4v?nocopy</questionvideo>
+			<reactionvideo name="reaction_12s_shrug" length="12">http://pc-upload.s3.amazonaws.com/150a089618f97711fefd3fb763bc3a4c_38598.f4v?nocopy</reactionvideo>
+			<reactionvideo name="reaction_10s_yawn" length="10">http://pc-upload.s3.amazonaws.com/4c747e6d58e055f1354ef94dfeb41743_38600.f4v?nocopy</reactionvideo>		
+		</question>
+		<question id="question4">
+			<questionvideo name="personalized_question_6a" length="8">http://pc-upload.s3.amazonaws.com/14afe1215504d7ef07a3b047f24d88ad_29585.f4v?nocopy</questionvideo>
+			<questionvideo name="personalized_question_6b" length="10">http://pc-upload.s3.amazonaws.com/de7012c40b09c1aed0f47055775fc7a1_29586.f4v?nocopy</questionvideo>
+			<questionvideo name="personalized_question_6c" length="9">http://pc-upload.s3.amazonaws.com/a18ea1af0bf912963bfab7caa49ed8b9_38587.f4v?nocopy</questionvideo>
+		</question>
+		<question id="question5">
+			<questionvideo name="personalized_question_7a" length="7">http://pc-upload.s3.amazonaws.com/c2cf22f3180121ece955cc237a80187f_38591.f4v?nocopy</questionvideo>
+			<questionvideo name="personalized_question_7b" length="7">http://pc-upload.s3.amazonaws.com/ef41e58062e6eecac45455c9446ecd84_38592.f4v?nocopy</questionvideo>
+			<reactionvideo name="reaction_12s_spin" length="12">http://pc-upload.s3.amazonaws.com/fb14ecd8dcb5cdaadd934ab353bd7f5a_38599.f4v?nocopy</reactionvideo>
+			<reactionvideo name="reaction_14s_yawn" length="14">http://pc-upload.s3.amazonaws.com/6d90e647ee32b8a0121fa45bde2e2afa_38601.f4v?nocopy</reactionvideo>		
+		</question>
+		<question id="question6">
+			<questionvideo name="personalized_question_8a" length="9">http://pc-upload.s3.amazonaws.com/cdd3aff51009b9f933de1840bf790499_38593.f4v?nocopy</questionvideo>
+			<questionvideo name="personalized_question_8b" length="12">http://pc-upload.s3.amazonaws.com/01aa7d516dcb34940be5979eb80638af_38595.f4v?nocopy</questionvideo>
+			<reactionvideo name="reaction_14s_yawn" length="14">http://pc-upload.s3.amazonaws.com/6d90e647ee32b8a0121fa45bde2e2afa_38601.f4v?nocopy</reactionvideo>		
+			<reactionvideo name="reaction_15s_fan" length="15">http://pc-upload.s3.amazonaws.com/0bc00b9828fa6bef22501593606e01a6_38596.f4v?nocopy</reactionvideo>
+		</question>		
+	</questions>
+	<premades>
+		<premade name="premade_classes" id="1" photoin="12" photoduration="4" photosize="99x88" x="329" y="65" title="{league_name} ESPN League Invite" description="Matthew Berry reports on the upcoming season of ESPN Fantasy Football commissioner {league_manager_name}. Sign up your team at http://es.pn/bjcpTp" category="Sports" tags="Fantasy Football, Matthew Berry, Football, League Inviter, ESPN, {league_manager_name}">http://pc-upload.s3.amazonaws.com/2a18f626f9d8e7ba76411ca0bf5f366e_38606.f4v?nocopy</premade>
+		<premade name="premade_stuff" id="2" photoin="11" photoduration="4" photosize="99x88" x="329" y="59" title="{league_name} ESPN League Invite" description="Matthew Berry reports on the upcoming season of ESPN Fantasy Football commissioner {league_manager_name}. Sign up your team at http://es.pn/bjcpTp" category="Sports" tags="Fantasy Football, Matthew Berry, Football, League Inviter, ESPN, {league_manager_name}">http://pc-upload.s3.amazonaws.com/b3bfc0b00030bff5ddab6a23cf9d13dc_38608.f4v?nocopy</premade>
+		<premade name="premade_watching" id="3" photoin="14" photoduration="4" photosize="99x88" x="337" y="56" title="{league_name} ESPN League Invite" description="Robert Flores reports on the upcoming season of ESPN Fantasy Football commissioner {league_manager_name}. Sign up your team at http://es.pn/bjcpTp" category="Sports" tags="Fantasy Football, Robert Flores, Football, League Inviter, ESPN, {league_manager_name}">http://pc-upload.s3.amazonaws.com/5e14758f781be1519724c5d3895b0aef_38609.f4v?nocopy</premade>
+	</premades>
+	<personalized title="{league_name} Commissioner ESPN Interview" description="ESPN Fantasy Football commissioner {league_manager_name} discusses {league_name}'s upcoming season with Robert Flores via satellite feed. Sign up your team at http://es.pn/bjcpTp" category="Sports" tags="Fantasy Football, Robert Flores, Football, League Inviter, ESPN, {league_manager_name}"/>
+</assets>

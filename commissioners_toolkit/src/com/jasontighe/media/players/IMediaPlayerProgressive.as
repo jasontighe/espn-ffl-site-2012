@@ -1,0 +1,1 @@
+package com.jasontighe.media.players {	public interface IMediaPlayerProgressive extends IMediaPlayer	{		function get bytesLoaded():Number;		function get bytesTotal():Number;			function get loadTimeElapsed():Number;				function get loadTimeRemaining():Number;	}}

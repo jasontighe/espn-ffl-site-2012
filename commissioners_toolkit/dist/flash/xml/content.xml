@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+
+	<copies>
+
+		<!--  	
+			NOTES
+				x, y, and style attributes are applied directly to TextFields via "makeTextFieldWithDto"
+				title, yes, and no attributes are used in creating AlertDialogs via Main.showDialogWithCopyDto 
+		-->
+	
+		<!--  TOUTS -->
+		<copy name="toutLIDesc" style=".toutLIDesc" x="108" y="111"><![CDATA[Kick off your season with a customized<br />invite video starring you and SportsCenter<br />anchor Robert Flores.]]></copy>
+		<copy name="toutLIButton" x="113" y="182"><![CDATA[CREATE A VIDEO]]></copy>
+		<!-- <copy name="toutEFDesc" style=".toutEFDesc" x="565" y="129"><![CDATA[The league giving you problems? <br />Consider me the fixer.]]></copy> -->
+		<copy name="toutEFDesc" style=".toutEFDesc" x="446" y="126"><![CDATA[From getting teams to sign up to reminding teams<br />to set their lineup, send in an enforcer to deliver a<br />message nobody can ignore.]]></copy>
+		<copy name="toutEFDemo" style=".toutEFDemo" x="854" y="222"><![CDATA[WATCH NOW]]></copy>
+		<copy name="toutEFButton" x="445" y="191"><![CDATA[SEND A MESSAGE]]></copy>
+		<copy name="toutRCButton" x="181" y="189"><![CDATA[GRADE THE DRAFT]]></copy>
+		<copy name="toutAPButton" x="39" y="189"><![CDATA[SUIT UP]]></copy>
+		
+	
+
+		<!--  LEAGUE INVITER -->
+		<copy name="liDesc" style=".liDesc" x="658" y="40"><![CDATA[It’s time to get your league together.<br />This year you’ve got me to do the work. ]]></copy>
+		<copy name="liTabPersonalized" style=".liTabs" x="66" y="134"><![CDATA[CUSTOMIZE YOUR VIDEO INVITE]]></copy>
+		<copy name="liTabPremade" style=".liTabs" x="456" y="134"><![CDATA[USE PRE-RECORDED VIDEO INVITE]]></copy>
+		<copy name="liIntroTitle" style=".liTitles" x="0" y="32"><![CDATA[HOW DOES IT WORK?]]></copy>
+		<copy name="liIntroStep1" style=".liIntroSteps" x="308" y="13"><![CDATA[Turn on your webcam (Internet Explorer,<br/>Firefox and Safari work best).]]></copy>
+		<copy name="liIntroStep2" style=".liIntroSteps" x="343" y="3"><![CDATA[Robert Flores starts asking you<br>questions like a real ESPN interview.]]></copy>
+		<copy name="liIntroStep3" style=".liIntroSteps" x="198" y="9"><![CDATA[You have a certain amount<br>of time to answer.]]></copy>
+		<copy name="liIntroStep4" style=".liIntroSteps" x="294" y="2"><![CDATA[If you don’t like your response,<br>press STOP and redo it.]]></copy>
+		<copy name="liIntroButton" x="0" y="32"><![CDATA[GET STARTED]]></copy>
+		<copy name="liIntroTerms" style=".liIntroTerms" x="285" y="523"><![CDATA[* BY CLICKING THE GET STARTED BUTTON, I AGREE TO THE <a href="http://games.espn.go.com/ffl/content?page=commissioner-toolkit-terms" target="blank"><u>TERMS AND CONDITIONS</u></a>]]></copy>
+		<copy name="liAddWebcamTitle" style=".liTitles" x="118" y="32"><![CDATA[STEP 1    TURN ON YOUR WEBCAM]]></copy>
+		<copy name="liAddWebcamDesc" style="liAddWebcamDesc" x="157" y="476"><![CDATA[It’s time to start recording your invite.<br />So put some pants on and comb your hair.<br />We’ve got an interview to record.]]></copy>
+		<copy name="liAddWebcamChrome" style=".liAddWebcamChrome" x="272" y="572"><![CDATA[Chrome not recommended for Web Camera. For more information, <a href="http://google.com" target="blank"><u>click here</u></a>.]]></copy>
+		<copy name="liAddWebcamButton" x="0" y="0"><![CDATA[CONNECT]]></copy>
+		<copy name="liPositionerTitle" style=".liTitles" x="118" y="32"><![CDATA[STEP 2    GET IN THE CENTER OF THE FRAME]]></copy>
+		<copy name="liPositionerDesc" style="liPositionerDesc" x="157" y="462"><![CDATA[Get in the center of the frame, about 2 feet away<br />from the camera. Solid, light backgrounds work<br />best. If you want to look like a SportCenter anchor<br />you have to act like one.]]></copy>
+		<copy name="liPositionerButton" x="0" y="0"><![CDATA[I'M IN]]></copy>
+		<copy name="liLearnTitle" style=".liTitles" x="118" y="32"><![CDATA[STEP 3    LEARN THE PLAYBOOK]]></copy>
+		<copy name="liLearnStep1" style=".liLearnSteps" x="-160" y="-41"><![CDATA[Click at any time when you are done<br />recording or for more options.]]></copy>
+		<copy name="liLearnStep2" style=".liLearnSteps" x="-230" y="-44"><![CDATA[Each answer has a time limit which<br />is displayed along with each question]]></copy>
+		<copy name="liLearnDesc" style=".liLearnDesc" x="157" y="462"><![CDATA[Now’s your chance to learn the playbook.<br />Learn what each button does before you<br />start recording.]]></copy>
+		<copy name="liLearnButton" x="0" y="0"><![CDATA[GOT IT]]></copy>
+		<copy name="liQuestionTitle" style=".liTitles" x="118" y="32"><![CDATA[INTERVIEW WITH ROBERT FLORES]]></copy>
+		<copy name="liQuestionBox" style=".liTitles" x="118" y="32"><![CDATA[INTERVIEW WITH ROBERT FLORES]]></copy>
+		<copy name="liWebcamWait" style=".liWebcamWait" x="118" y="32"><![CDATA[WAIT]]></copy>
+		<copy name="liWebcamPressIf" style=".liWebcamPressIf" x="118" y="32"><![CDATA[Press if you are ready<br />to answer the question.]]></copy>
+		<copy name="liRecordButton" x="237" y="10"><![CDATA[RECORD]]></copy>
+		<copy name="liStopButton" x="237" y="10"><![CDATA[STOP]]></copy>
+		<copy name="liDialogTryTitle" style=".liDialogTryTitle" x="93" y="95"><![CDATA[Question #  COMPLETED]]></copy>
+		<copy name="liDialogTryDesc" style=".liDialogTryDesc" x="93" y="132"><![CDATA[Would you like to save and continue to question # or redo<br />this one?]]></copy>
+		<copy name="liDialogTryPerc" style=".liDialogTryPerc" x="300" y="185"><![CDATA[percent: ]]></copy>
+		<copy name="liDialogTryCurrentFrame" style=".liDialogTryCurrentFrame" x="370" y="185"><![CDATA[frame: ]]></copy>
+		<copy name="liDialogTryTotalFrames" style=".liDialogTryTotalFrames" x="440" y="185"><![CDATA[total: ]]></copy>
+		<copy name="liDialogTryDescLast" style=".liDialogTryDesc" x="93" y="132"><![CDATA[Would you like to save and complete your invite or redo<br />this one?]]></copy>
+		<copy name="liDialogTryAgain" x="0" y="0"><![CDATA[TRY AGAIN]]></copy>
+		<copy name="liDialogSaveContiniue" x="0" y="0"><![CDATA[SAVE AND CONTINUE]]></copy><copy name="liDialogTryTitle" style=".liDialogTryTitle" x="93" y="95"><![CDATA[Question #  COMPLETED]]></copy>
+		<copy name="liDialogMicTitle" style=".liDialogTryTitle" x="93" y="95"><![CDATA[MICROPHONE OFF?]]></copy>
+		<copy name="liDialogMicDesc" style=".liDialogTryDesc" x="93" y="132"><![CDATA[Sorry, it looks like your microphone is not connected, off or<br />possibly broken. Please check your current setup and try again.]]></copy>
+		<copy name="liDialogMicContiniue" x="0" y="0"><![CDATA[CONTINUE ANYWAY]]></copy>
+		
+		<copy name="liUploadPremadeTitle" style=".liUploadTitle" x="99" y="22"><![CDATA[UPLOAD A PHOTO OF YOURSELF]]></copy>
+		<copy name="liUploadTitle" style=".liUploadTitle" x="99" y="22"><![CDATA[UPLOAD A PHOTO OF YOUR BUDDY]]></copy>
+		<copy name="liUploadDesc" style=".liUploadDesc" x="99" y="58"><![CDATA[Choose wisely. It will appear in the final video.]]></copy>
+		<copy name="liUploadSelected" style=".liUploadDesc" x="99" y="58"><![CDATA[File has been selected:]]></copy>
+		<copy name="liUploadFilename" style=".liUploadFilename" x="31" y="138"><![CDATA[]]></copy>
+		<copy name="liUploadSkipBtn" style=".liUploadSkipBtn" x="408" y="184"><![CDATA[SKIP THIS STEP]]></copy>
+		<copy name="liUploadBrowseBtn" x="264" y="129"><![CDATA[BROWSE]]></copy>
+		<copy name="liUploadBtn" x="411" y="129"><![CDATA[UPLOAD]]></copy>
+		<copy name="liUploadFooter" style=".liUploadFooter" x="25" y="187"><![CDATA[File should be a JPG, GIF or PNG, less than 2MB.]]></copy>
+		<copy name="liUploadError" style=".liUploadError" x="25" y="97"><![CDATA[Make sure your photo is the right size and format.]]></copy>
+		<copy name="liUploadWaiting" style=".liUploadWaiting" x="25" y="97"><![CDATA[UPLOADING]]></copy>
+		<copy name="liUDebuggerTitle" style=".liUDebuggerTitle" x="2" y="2"><![CDATA[DEBUGGER]]></copy>
+		<copy name="liUDebuggerMessage" style=".liUDebuggerMessage" x="2" y="0"><![CDATA[]]></copy>
+		
+		<copy name="liCompleteWaitTitle" style=".liTitles" x="118" y="33"><![CDATA[INTERVIEW COMPLETE]]></copy>
+		<copy name="liCompleteWaitDesc" style=".liTitles" x="118" y="33"><![CDATA[Please wait while we upload your video. This may take a few minutes.]]></copy>
+		<copy name="liCompletedTitle" style=".liTitles" x="118" y="33"><![CDATA[CONGRATULATIONS, YOU DID IT.]]></copy>
+		<copy name="liCompletedPressTitle" style=".liTitles" x="118" y="33"><![CDATA[Thanks for creating a video with the ESPN League Inviter.]]></copy>
+		<copy name="liCompletedDesc" style=".liCompletedDesc" x="118" y="83"><![CDATA[You survived the cross examination of Robert Flores. To review your video,<br/>check back here in a few minutes or wait for an email notification.]]></copy>
+		<copy name="liCompletedPremadeDesc" style=".liCompletedDesc" x="118" y="83"><![CDATA[To review your video, check back here in a few minutes<br />or wait for an email notification.]]></copy>
+		<copy name="liCompletedPressDesc" style=".liCompletedDesc" x="118" y="83"><![CDATA[Hopefully, Robert Flores was easy on you. In the press preview you aren't able to view the<br />final output, but please enjoy the rest of the features that the Toolkit has to offer.]]></copy>
+		<copy name="liCompletedPremadePressDesc" style=".liCompletedDesc" x="118" y="83"><![CDATA[In the press preview you aren't able to view the final output, but<br />please enjoy the rest of the features that the Toolkit has to offer.]]></copy>
+		<copy name="liCompletedButton" x="0" y="0"><![CDATA[BACK TO TOOLKIT]]></copy>
+		
+		<copy name="liPremadeTitle" style=".liPremadeTitle" x="33" y="19"><![CDATA[If you don’t have a webcam or you are more of a behind-the-scenes kind of guy.<br />Let Robert Flores or Matthew Berry do the talking for you.]]></copy>
+		<copy name="liPremadeDesc" style=".liPremadeDesc" x="135" y="74"><![CDATA[Send out your invite with one of these pre-recorded videos.]]></copy>
+		<copy name="liPremadeButton" x="0" y="0"><![CDATA[SELECT VIDEO]]></copy>
+
+		<copy name="previewTitle" style=".previewTitle" x="118" y="33"><![CDATA[# LEAGUE INVITE]]></copy>
+		<copy name="previewDeleteButton" x="142" y="478"><![CDATA[DELETE AND START OVER]]></copy>
+		<copy name="previewShareButton" x="490" y="478"><![CDATA[SHARE TO LEAGUE]]></copy>
+		<copy name="previewGetUrlButton" x="490" y="478"><![CDATA[GET URL]]></copy>
+
+		<copy name="deleteDialogTitle" style=".deleteDialogTitle" x="36" y="26"><![CDATA[]]></copy>
+		<copy name="deleteDialogDesc" style=".deleteDialogDesc" x="36" y="63"><![CDATA[Looks like your video’s been pulled down from YouTube.<br />Don’t worry about it. Just pick yourself<br/>up, dust yourself off and record another one.]]></copy>
+		<copy name="deleteDialogButton" x="167" y="131"><![CDATA[GET STARTED]]></copy>
+		
+		<copy name="liWaitingTitle" style=".liDialogTryTitle" x="93" y="95"><![CDATA[INTERVIEW COMPLETE]]></copy>
+		<copy name="liWaitingDesc" style=".liDialogTryDesc" x="93" y="132"><![CDATA[Please wait while we upload your video. This may take a few<br />minutes.]]></copy>
+		
+		<copy name="liLeaveTitle" style=".liDialogTryTitle" x="118" y="33"><![CDATA[ARE YOU SURE YOU WANT TO CUT THE<br>INTERVIEW SHORT?]]></copy>
+		<copy name="liLeaveDesc" style=".liDialogTryDesc" x="142" y="478"><![CDATA[This video will not be saved if you leave this page.]]></copy>
+		<copy name="liLeaveButton" x="490" y="478"><![CDATA[LEAVE PAGE]]></copy>
+		<copy name="liBackButton" x="490" y="478"><![CDATA[BACK TO VIDEO]]></copy>
+
+		<copy name="liShareTitle">ESPN FFL League Invite</copy>
+		<copy name="liShareCaption">espn.com/fantasyfootball</copy>
+		<copy name="liShareDescription"><![CDATA[Congrats. You’ve been invited to play Fantasy Football. Check out your commissioner’s interview with Robert Flores for more info.]]></copy>
+		<copy name="liShareDescriptionPremade1"><![CDATA[Congrats. You’ve been invited to play Fantasy Football. Check out your commissioner’s interview with Matthew Berry for more info.]]></copy>
+		<copy name="liShareDescriptionPremade2"><![CDATA[Congrats. You’ve been invited to play Fantasy Football. Check out your commissioner’s interview with Matthew Berry for more info.]]></copy>
+		<copy name="liShareDescriptionPremade3"><![CDATA[You’ve been invited to play Fantasy Football. Check out your commissioner’s interview with Robert Flores for more info.]]></copy>
+		
+		<!--  ENFORCER -->
+
+		<copy name="enforcerSub" style=".reportCardSubWhite" x="517" y="68"><![CDATA[From getting teams to sign up to reminding teams to set<br/>their lineup, send in an enforcer to deliver a message<br/>nobody can ignore.]]></copy>
+		<copy name="enforcerGetUrlButton" style=".enforcerGetUrl" x="0" y="0"><![CDATA[GET URL]]></copy>
+		<copy name="enforcerShareButton" style=".reportCardSubWhite" x="0" y="0"><![CDATA[SHARE]]></copy>
+		
+		<!--  REPORT CARD -->
+
+		<copy name="rcView1Sub1" style=".reportCardSubWhite"><![CDATA[Use Matthew Berry’s expertise to grade your league’s draft]]></copy>
+		<copy name="rcView1Sub2" style=".reportCardSubWhite"><![CDATA[and don’t be afraid to throw in a few of your comments.]]></copy>
+		<copy name="rcPreviewYour" style=".reportCardSubWhite" x="50" y="96"><![CDATA[ ]]></copy> <!-- copy was removed -->
+		<copy name="rcHeadStart" style=".reportCardSubRed" x="50" y="93"><![CDATA[Please wait while I grade your draft...]]></copy>
+		<copy name="rcMbGrade" style=".reportCardBerryGrade" x="83" y="184"><![CDATA[MATTHEW BERRY'S GRADE<super><font color="#767676">*</font></super>]]></copy>
+		<copy name="rcCommentLoadingPrompt" ><![CDATA[Loading...]]></copy>
+		<copy name="rcGradeLoadingPrompt" ><![CDATA[...]]></copy>
+		<copy name="rcFinePrint" style=".reportCardFinePrint" x="83" y="184"><![CDATA[* RANKINGS BASED ON 10-TEAM ESPN STANDARD LEAGUE WITH 16-PLAYER ROSTERS, STARTING 1 QB, 2 RBS, 2 WRS, 1 TE, 1 FLEX (RB/WR/TE), A TEAM DEFENSE AND A KICKER.]]></copy>
+
+		<copy name="rcTableHeaderPicks" style=".reportCardHeader" x="15" y="13"><![CDATA[PICKS]]></copy>
+		<copy name="rcTableHeaderTeamName" style=".reportCardHeader" x="130" y="13"><![CDATA[TEAM NAME]]></copy>
+		<copy name="rcTableHeaderGrade" style=".reportCardHeader" x="284" y="13"><![CDATA[GRADE]]></copy>
+		<copy name="rcTableHeaderComment" style=".reportCardHeader" x="460" y="13"><![CDATA[COMMISSIONER'S COMMENT]]></copy>
+
+		<copy name="rcDetailTitle" style=".reportCardTeamDetailTitle" x="28" y="21"><![CDATA[DRAFT PICKS]]></copy>
+		<copy name="rcDetailPick" style=".reportCardTeamDetailHeader" x="10" y="4"><![CDATA[PICK]]></copy>
+		<copy name="rcDetailPlayer" style=".reportCardTeamDetailHeader" x="69" y="4"><![CDATA[PLAYER]]></copy>
+		<copy name="rcDetailPos" style=".reportCardTeamDetailHeader" x="240" y="4"><![CDATA[POS]]></copy>
+		<copy name="rcDetailTeam" style=".reportCardTeamDetailHeader" x="288" y="4"><![CDATA[TEAM]]></copy>
+		
+		<copy name="rcButtonDefault" style=".reportCardBerryGrade"><![CDATA[DEFAULT]]></copy>
+		<copy name="rcButtonGenerate"><![CDATA[GENERATE REPORT CARD]]></copy>
+		<copy name="rcButtonPost"><![CDATA[SHARE]]></copy>
+		<copy name="rcButtonDownload"><![CDATA[DOWNLOAD IMAGE]]></copy>
+		<copy name="rcButtonBack"><![CDATA[BACK]]></copy>
+
+		<copy name="rcCommentTooltip"><![CDATA[Click on the text to add your own comment]]></copy>
+		
+		<!--  APPAREL -->
+		
+		<!--  DIALOGS, 'ALERTS', 'TOASTS' -->
+
+		<copy name="dialogMapperTitle"><![CDATA[SHARE SETTINGS]]></copy>
+		<copy name="dialogMapperCopy"><![CDATA[Match your league members to their Facebook names for easy sharing within<br/>the Commissioner toolkit.]]></copy>
+		<copy name="dialogMapperTeamsHeading"><![CDATA[YOUR LEAGUE]]></copy>
+		<copy name="dialogMapperFriendsHeading"><![CDATA[FACEBOOK FRIENDS]]></copy>
+		<copy name="dialogMapperNoDraft"><![CDATA[Teams will appear after your<br/>league has drafted.]]></copy>		
+		<copy name="enforcerDialogTitle"><![CDATA[SELECT WHICH OF YOUR LEAGUE MEMBERS TO SHARE WITH.]]></copy>
+		<copy name="enforcerDialogSub"><![CDATA[You can add more league members in <a href='event:sharesettings'><u>Share Settings</u></a>.]]></copy>
+		<copy name="enforcerDialogNoFriends"><![CDATA[You have no teams added. Go to <a href='event:sharesettings'><u>Share Settings</u></a> to update your league.]]></copy>
+		
+		<copy name="dialogPickerPrompt"><![CDATA[Your comments...]]></copy>
+		<copy name="dialogPickerOkButton"><![CDATA[PUBLISH TO FACEBOOK]]></copy>
+		<copy name="dialogPickerCancelButton"><![CDATA[CANCEL]]></copy>
+
+		<copy name="alertTooManyTeams" title="YOUR LEAGUE IS TOO LARGE" yes="GET GEAR HERE" no=""><![CDATA[Sorry, the Commissioner Toolkit is made for leagues with 12 teams or fewer. There is good news, you can still get fantasy gear at CafePress.<br/>&nbsp;]]></copy>
+		<copy name="alertNotLoggedIn" title="COMMISSIONER TOOLKIT" yes="SIGNUP TO VIEW" no=""><![CDATA[If you want to check out the toolkit, you have to be a League Commissioner. Sign up your league with ESPN. Click here to register.<br/>&nbsp;]]></copy>
+		<copy name="alertReportCardNoDraft" title="DRAFT REPORT CARD" yes="BACK TO TOOLKIT" no=""><![CDATA[Come back after your draft to grade your league.]]></copy>
+		<copy name="alertConnectionError" title="" yes="OKAY" no=""><![CDATA[We're sorry, there was a connection error.]]></copy>
+		<copy name="alertFbLoginError" title="Unable to Login" yes="TRY AGAIN" no="CANCEL"><![CDATA[An error occurred logging into Facebook. Please try again.]]></copy>
+		<copy name="alertFbPermissions" title="Permissions" yes="AUTHORIZE APP" no="CANCEL"><![CDATA[You must authorize the Fantasy League Football Facebook app in order to share via Facebook.]]></copy>
+		<copy name="alertFbPostError" title="Unable to Post" yes="TRY AGAIN" no="CANCEL"><![CDATA[An error occurred while posting to Facebook. Please try again.]]></copy>
+		<copy name="alertInviterShare" title="PUBLISH TO FACEBOOK" yes="PUBLISH" no="SHARE SETTINGS"><![CDATA[You're about to share the League Inviter with your league.<br/>Make sure you've added your league members in the Share Settings before you publish.]]></copy>
+		<copy name="alertReportCardShare" title="PUBLISH TO FACEBOOK" yes="PUBLISH" no="SHARE SETTINGS"><![CDATA[You're about to share the Draft Report Card with your league.<br/>Make sure you've added your league members in the Share Settings before you publish.]]></copy>
+		<copy name="alertReportCardShareNoFriends"><![CDATA[You have no friends added to your teams. Go to <a href='event:sharesettings'><u>Share Settings</u></a> to update your league.]]></copy>
+		<copy name="toastFbPostedReportCard" title=""><![CDATA[Your report card has been posted and tagged.]]></copy>
+		<copy name="alertExitToolkit" title="Exit Toolkit" yes="LEAVE PAGE" no="BACK TO VIDEO"><![CDATA[Are you sure you want to continue? This video will not be saved if you leave this page.]]></copy>
+		<copy name="alertDeleteVideo" title="" yes="LEAVE PAGE" no="BACK TO VIDEO"><![CDATA[Are you sure you want to cut the interview short?<br />This video will not be saved if you leave this page.]]></copy>
+		<copy name="alertWebcamDenied" title="Webcam Denied" yes="MAKE PREMADE VIDEO" no=""><![CDATA[Are you sure you want to deactivate your webcam? You will not be able to make a personalzied video.]]></copy>
+		<copy name="alertNotLoggedInPage" title="GET STARTED" yes="CREATE A LEAGUE" no=""><![CDATA[In order to take advantage of the Commissioner Toolkit<br/>you need to be the League Manager of a Fantasy Football<br/>league on ESPN.<br/><br/>League Managers can access these brand new<br/>features within the LM Tools tab on their Fantasy page.]]></copy>
+		<copy name="alertNotLoggedInPageNew" title="GET STARTED" yes="CREATE A LEAGUE" no=""><![CDATA[In order to take advantage of the Commissioner Toolkit you need<br/>to be the League Manager of a Fantasy Football league on ESPN.<br/><br/>League Managers can access these brand new features within<br/>the LM Tools tab on their Fantasy page.]]></copy>
+		<copy name="alertNotLoggedInPageCreateALeagueUrl"><![CDATA[http://games.espn.go.com/ffl/welcome?ex_cid=FFL11_vanwelcome_url]]></copy>
+		<copy name="alertNotLoggedInPageCommissionerText"><![CDATA[COMMISSIONERS CLICK HERE]]></copy>
+		<copy name="alertNotLoggedInPageCommissionerUrl"><![CDATA[http://games.espn.go.com/ffl/commissionertoolkit]]></copy>
+		<copy name="alertNotCommissioner" title="Commissioner Toolkit" yes="SIGN UP TO VIEW" no=""><![CDATA[If you want to check out the toolkit, you have to sign up<br />your team or league with ESPN. Click here to register.]]></copy>
+		<copy name="alertVideoWaiting" title="YOUR VIDEO IS ALMOST READY" yes="BACK TO THE TOOLKIT" no=""><![CDATA[We're just finishing up. You'll receive an email as soon<br/>as it's done.]]></copy>
+		<copy name="alertVideoDeleted" title="" yes="GET STARTED" no=""><![CDATA[Looks like your video’s been pulled down from YouTube.<br />Don’t worry about it. Just pick yourself<br/>up, dust yourself off and record another one.]]></copy>
+		<copy name="alertVideoDeletedPress" title="" yes="BACK TO TOOLKIT" no=""><![CDATA[Thanks for creating a video with the ESPN League Inviter.<br/>In the press preview you aren't able to view the final output, but please enjoy the rest of the features that the Toolkit has to offer.]]></copy>
+		<copy name="alertHRError" title="SORRY!" yes="CREATE NEW VIDEO" no="BACK TO TOOLKIT"><![CDATA[We've run into a technical issue while editing your League Invite.]]></copy>
+		<copy name="alertNoCamera" title="CAMERA NOT DETECTED" yes="TRY AGAIN" no="PRE-RECORDED VIDEO"><![CDATA[It appears your camera is not connected. Please connect your webcam to create your own video or select a pre-recorded video instead.]]></copy>
+		<copy name="alertNoMic" title="MICROPHONE NOT DETECTED" yes="TRY AGAIN" no="PRE-RECORDED VIDEO"><![CDATA[It appears your microphone is not connected. Please connect your microphone to create your own video or select a pre-recorded video instead.]]></copy>
+		
+		<copy name="toastFbPostedInvite" title="" yes="OK" no=""><![CDATA[Your invite has been posted to selected friends.]]></copy>
+		<copy name="toastFbPostedEnforcer" title="" yes="OK" no=""><![CDATA[Your video has been posted to selected friends.]]></copy>
+		<copy name="toastGetUrl" title="VIDEO LINK COPIED"><![CDATA[The Enforcer video link has successfully been copied to your clipboard.]]></copy>
+		<copy name="toastInviterGetUrl" title="VIDEO LINK COPIED"><![CDATA[Your League Inviter video link has successfully been copied to your clipboard.]]></copy>
+		
+		<!--  NON-DISPLAY STRINGS -->
+
+		<copy name="fbPopupUrl"><![CDATA[http://www.facebook.com/sharer.php]]></copy>
+		<!-- use non-encoded format here: -->
+		<copy name="fbShareUrl"><![CDATA[http://games.espn.go.com/ffl/commissionertoolkitlanding]]></copy>
+
+		<copy name="twitterPopupUrl"><![CDATA[https://twitter.com/intent/tweet]]></copy>
+		<!-- must be utf8 and percent encoded: -->
+		<copy name="twitterTweetCopy"><![CDATA[Check out ESPN’s fantasy football toolkit, an arsenal of tools that helps commissioners get the respect they deserve.]]></copy> 
+		<!-- must be utf8 and percent encoded: -->
+		<copy name="twitterTweetUrl"><![CDATA[http://es.pn/NLQ4Tp]]></copy>
+		<copy name="twitterTweetHashTags"><![CDATA[]]></copy>
+
+		<copy name="notLoggedInVideoUrl"><![CDATA[flash/f4v/demo_video_420.f4v]]></copy>
+
+	</copies>
+
+
+	<sections>
+		<section	
+			name="LEAGUE INVITER"
+			active="true">
+		</section>
+		<section	
+			name="THE ENFORCER"
+			active="true">
+		</section>
+		<section	
+			name="REPORT CARD"
+			active="true">
+		</section>
+		<section	
+			name="TEAM GEAR"
+			active="true"
+			url="http://espnfantasyfootball.logosoftwear.com">
+		</section>
+	</sections>
+	
+
+	<enforcer>
+		<videos>
+			<video 
+				id="ditka"
+				topTitle="DITKA: TRADE REJECTION"
+				thumbTitle="DITKA:\rTRADE REJECTION" 
+				thumbPath="./flash/img/enforcer/ditka_stand_up_thumb.jpg"
+				videoFile="ditka_stand_up_b.f4v"
+				facebookShareUrl="http://youtu.be/cdR0DvlcHWE" 
+				facebookShareTitle="DITKA: TRADE REJECTION" 
+				facebookShareCaption="" 
+				facebookShareDescription="Coach Ditka's here to tell you that you're trade's been rejected. Don't worry, he'll be gentle." 
+				/>
+			<video
+				id="arian"
+				topTitle="ARIAN: SIGN UP YOUR TEAM"
+				thumbTitle="ARIAN:\rSIGN UP YOUR TEAM" 
+				thumbPath="./flash/img/enforcer/foster_toy_soldier_thumb.jpg"
+				videoFile="foster_toy_soldier_b.f4v"
+				facebookShareUrl="http://youtu.be/ieMaEPc808c" 
+				facebookShareTitle="ARIAN: SIGN UP YOUR TEAM" 
+				facebookShareCaption="" 
+				facebookShareDescription="Arian Foster here with a demonstration of what will happen if you don't sign up your fantasy team soon." 
+				/>
+			<video 
+				id="gronkbye"
+				topTitle="GRONK: BYE WEEK REMINDER"
+				thumbTitle="GRONK:\rBYE WEEK REMINDER" 
+				thumbPath="./flash/img/enforcer/gronk_bye_week_thumb.jpg"
+				videoFile="gronk_bye_week_b.f4v"
+				facebookShareUrl="http://youtu.be/X7UJK9tmL2I" 
+				facebookShareTitle="GRONKOWSKI: BYE WEEK REMINDER" 
+				facebookShareCaption="" 
+				facebookShareDescription="If you don't set your lineup for the upcoming bye week, Gronk is going to give you a bye, bye week." 
+				/>
+			<video 
+				id="gronkcutlet"
+				topTitle="GRONK: DRAFT REMINDER"
+				thumbTitle="GRONK:\rDRAFT REMINDER" 
+				thumbPath="./flash/img/enforcer/gronk_chicken_cutlet_thumb.jpg"
+				videoFile="gronk_chicken_cutlet_b.f4v"
+				facebookShareUrl="http://youtu.be/EocCZQ5PXkk" 
+				facebookShareTitle="GRONKOWSKI: DRAFT REMINDER" 
+				facebookShareCaption="" 
+				facebookShareDescription="If you're late to your draft, Gronk's not going to be happy." 
+				/>
+			<video 
+				id="tj"
+				topTitle="TJ: TRADE REJECTION"
+				thumbTitle="TJ:\rTRADE REJECTION" 
+				thumbPath="./flash/img/enforcer/tj_thumb.jpg"
+				videoFile="tj_b.f4v"
+				facebookShareUrl="http://youtu.be/2fUjmG6uldQ" 
+				facebookShareTitle="TJ: TRADE REJECTION" 
+				facebookShareCaption="" 
+				facebookShareDescription="Tom Jackson wanted to let you know that he's a winner and your trade's been rejected." 
+				/>
+			<video 
+				id="tuckpuppet"
+				topTitle="TUCK: SET LINEUP: PUPPET"
+				thumbTitle="TUCK:\rSET LINEUP: PUPPET" 
+				thumbPath="./flash/img/enforcer/tuck_puppetry_thumb.jpg"
+				videoFile="tuck_puppetry_b.f4v"
+				facebookShareUrl="http://youtu.be/aB0IVTZswls" 
+				facebookShareTitle="TUCK: SET LINEUP: PUPPET" 
+				facebookShareCaption="" 
+				facebookShareDescription="If you don't set your lineup, Justin Tuck is going to turn you into a puppet and set it for you." 
+				/>
+			<video 
+				id="tuckquestion"
+				topTitle="TUCK: SET LINEUP: QUESTION"
+				thumbTitle="TUCK:\rSET LINEUP: QUESTION" 
+				thumbPath="./flash/img/enforcer/tuck_multiple_choice_thumb.jpg"
+				videoFile="tuck_multiple_choice_b.f4v"
+				facebookShareUrl="http://youtu.be/herLXg1OzkE" 
+				facebookShareTitle="TUCK: SET LINEUP: QUESTION" 
+				facebookShareCaption="" 
+				facebookShareDescription="What happens if you don't set your lineup? Justin Tuck has a few ideas." />
+		</videos>
+
+		<orders> 
+			<!-- must be in reverse chronological order -->
+			<order 
+				startEpochTime="1346040000000"
+				placementImageUrl="./flash/img/enforcer/tuck_puppetry_full.jpg" 
+				ids="tuckpuppet,gronkbye,tuckquestion,ditka,tj,gronkcutlet,arian"
+				/>
+			<order 
+				startEpochTime="1344830400000"
+				placementImageUrl="./flash/img/enforcer/ditka_stand_up_full.jpg" 
+				ids="ditka,tj,gronkcutlet,arian,tuckpuppet,gronkbye,tuckquestion"
+				/>
+			<order 
+				startEpochTime="0"
+				placementImageUrl="./flash/img/enforcer/gronk_chicken_cutlet_full.jpg" 
+				ids="gronkcutlet,arian,tuckpuppet,gronkbye,tuckquestion,ditka,tj"
+				/>
+		</orders>
+
+	</enforcer>
+
+
+	<encoding>
+		<formats>
+			<format name="default">
+		 		<output>mp4</output>
+		 		<bitrate>4000k</bitrate>
+		 		<framerate>24</framerate>
+		 		<video_codec>libx264</video_codec>
+		 		<profile>main</profile>
+		 		<size>640x360</size>
+		 		<audio_codec>libfaac</audio_codec>
+		 		<audio_bitrate>128k</audio_bitrate>
+		 		<audio_sample_rate>44100</audio_sample_rate>
+			</format>
+		</formats>
+	</encoding>
+	
+	<videos>
+		<interview>
+			<video
+				name="question_1" 
+				stitchURL="http://pc-upload.s3.amazonaws.com/8bc7b94d90b28d8cdc9894a499c6fc20_26645.flv?nocopy" 
+				previewURL="./flash/f4v/interviews/1500br_15kf/espn_ffl2012_videooutput_01_.f4v" 
+				sourceId="01234" 
+				style=".liQuestionBox"
+				time="15"
+				recordEarly="false"
+				type="split"
+			><![CDATA[Who are you inviting to play in your league this year?]]></video>
+			<video
+				name="question_3"
+				stitchURL="http://pc-upload.s3.amazonaws.com/944c37b97724cf921a0fec487cec97a5_26646.flv?nocopy" 
+				previewURL="./flash/f4v/interviews/1500br_15kf/espn_ffl2012_videooutput_03_.f4v" 
+				sourceId="01234" 
+				style=".liQuestionBox"
+				time="5"
+				recordEarly="true"
+				type="split"
+			><![CDATA[Where to hold the draft? Elks Lodge or Mr. Meows Bar and Grill?]]></video>
+			<video
+				name="question_5"
+				stitchURL="http://pc-upload.s3.amazonaws.com/1c8fc7cf918f5e80d3e64346ffd1856e_26647.flv?nocopy" 
+				previewURL="./flash/f4v/interviews/1500br_15kf/espn_ffl2012_videooutput_05_.f4v" 
+				sourceId="01234" 
+				style=".liQuestionBox"
+				time="5"
+				recordEarly="false"
+				type="split"
+			><![CDATA[What manager is most likely to win the whole thing?]]></video>
+			<video
+				name="question_6"
+				stitchURL="http://pc-upload.s3.amazonaws.com/a71881dc59a7cdb651e9bb31b797352f_26648.flv?nocopy" 
+				previewURL="./flash/f4v/interviews/1500br_15kf/espn_ffl2012_videooutput_06_.f4v" 
+				sourceId="01234" 
+				style=".liQuestionBox"
+				time="5"
+				recordEarly="false"
+				type="fullscreen"
+			><![CDATA[Bill Belichick, Rex Ryan or a frantic jungle cat?]]></video>
+			<video
+				name="question_7"
+				stitchURL="http://pc-upload.s3.amazonaws.com/fd836ba556871bb51bf21a826dbe770c_26650.flv?nocopy" 
+				previewURL="./flash/f4v/interviews/1500br_15kf/espn_ffl2012_videooutput_07_.f4v" 
+				sourceId="01234" 
+				style=".liQuestionBox"
+				time="5"
+				recordEarly="false"
+				type="split"
+			><![CDATA[A foam finger made out of pure gold or a blimp with your name on it?]]></video>
+			<video
+				name="question_8"
+				stitchURL="http://pc-upload.s3.amazonaws.com/fe35293bf1c913657e4e4b377f66a077_26652.flv?nocopy" 
+				previewURL="./flash/f4v/interviews/1500br_15kf/espn_ffl2012_videooutput_08_.f4v" 
+				sourceId="01234" 
+				style=".liQuestionBox"
+				time="14"
+				recordEarly="false"
+				type="split"
+			><![CDATA[Are there any warnings or threats you’d like to tell the league?]]></video>
+		</interview>
+		
+		<premade>
+			<video 
+				name="premade_classes" 
+				previewURL="./flash/f4v/premade/espn_ffl2012_collegemorningclasses_.f4v"><![CDATA[CLASSES]]></video>
+
+			<video
+				name="premade_stuff" 
+				previewURL="./flash/f4v/premade/espn_ffl2012_commissionerstuff_.f4v" 
+			><![CDATA[COMMISSIONERY STUFF]]></video>
+			
+			<video
+				name="premade_watching" 
+				previewURL="./flash/f4v/premade/espn_ffl2012_watching_.f4v"><![CDATA[THE COMMISSIONER IS WATCHING YOU]]></video>
+		</premade>
+		
+	</videos>
+	
+	<metrics>
+	
+		<notLoggedInPage>/notloggedin</notLoggedInPage>
+		<notLoggedInPageDialog>/notloggedin/notloggedin_dialog</notLoggedInPageDialog>
+	
+		<globalShareFacebookButton>/global_sharefacebook_button</globalShareFacebookButton>
+		<globalShareTwitterButton>/global_sharetwitter_button</globalShareTwitterButton>
+		<globalLogoButton>/global_logo_button</globalLogoButton>
+		<globalInviterButton>/global_inviter_button</globalInviterButton>
+		<globalEnforcerButton>/global_enforcer_button</globalEnforcerButton>
+		<globalReportCardButton>/global_reportcard_button</globalReportCardButton>
+		<globalTeamGearButton>/global_teamgear_button</globalTeamGearButton>
+		<globalSettingsButton>/global_settings_button</globalSettingsButton>
+
+		<shareSettings>/settings</shareSettings>
+		<shareSettingsSaveButton>/settings/save_button</shareSettingsSaveButton>
+		<shareSettingsCloseButton>/settings/close_button</shareSettingsCloseButton>
+
+		<home>/home</home>
+		<homeInviterButton>/home/inviter_button</homeInviterButton>
+		<homeEnforcerButton>/home/enforcer_button</homeEnforcerButton>
+		<homeReportCardButton>/home/reportcard_button</homeReportCardButton>
+		<homeTeamGearButton>/home/teamgear_button</homeTeamGearButton>
+		<homeNotCommissionerDialog>/home/notcommissioner_dialog</homeNotCommissionerDialog>
+		<homeLoggedOutDialogSignupButton>/home/loggedout_dialog/signup_button</homeLoggedOutDialogSignupButton>
+		<homeTooBigDialog>/home/toobig_dialog</homeTooBigDialog>
+		<homeTooBigDialogGetGearButton>/home/toobig_dialog/getgear_button</homeTooBigDialogGetGearButton>
+		
+		<inviter>/inviter</inviter>
+		<inviterCustomize>/inviter/customize</inviterCustomize>
+		<inviterCustomizeGetStartedButton>/inviter/customize/getstarted_button</inviterCustomizeGetStartedButton>		
+		<inviterCustomizeConnectButton>/inviter/customize/connect_button</inviterCustomizeConnectButton>
+		<inviterCustomizeImInButton>/inviter/customize/imin_button</inviterCustomizeImInButton>
+		<inviterCustomizeGotItButton>/inviter/customize/gotit_button</inviterCustomizeGotItButton>
+		
+		<inviterCustomizeQuestion>/inviter/customize/q[QUESTION_NUM]</inviterCustomizeQuestion>
+		<inviterCustomizeQuestionRecordButton>/inviter/customize/q[QUESTION_NUM]_record_button</inviterCustomizeQuestionRecordButton>
+		<inviterCustomizeSaveButton>/inviter/customize/q[QUESTION_NUM]_save_button</inviterCustomizeSaveButton>
+		<inviterCustomizeTryAgainButton>/inviter/customize/q[QUESTION_NUM]_tryagain_button</inviterCustomizeTryAgainButton>
+
+		<inviterCustomizeQuestion3SkipUploadButton>/inviter/customize/q3_skipupload_button</inviterCustomizeQuestion3SkipUploadButton>
+		<inviterCustomizeQuestion3UploadButton>/inviter/customize/q3_upload_button</inviterCustomizeQuestion3UploadButton>
+		
+		<inviterCustomizeBackToToolkitButton>/inviter/customize/backtotoolkit_button</inviterCustomizeBackToToolkitButton>
+		<inviterCustomizeStartOverButton>/inviter/customize/startover_button</inviterCustomizeStartOverButton>
+		
+		<inviterCustomizeGetUrlButton>/inviter/customize/geturl_button</inviterCustomizeGetUrlButton>
+		<inviterCustomizeShareButton>/inviter/customize/share_button</inviterCustomizeShareButton>
+		<inviterCustomizeShareDialog>/inviter/customize/share_dialog</inviterCustomizeShareDialog>
+		<inviterCustomizeShareDialogShareButton>/inviter/customize/share_dialog/share_button</inviterCustomizeShareDialogShareButton>
+		<inviterCustomizeShareDialogPublishButton>/inviter/customize/share_dialog/publish_button</inviterCustomizeShareDialogPublishButton>
+		<inviterCustomizeShareDialogCloseButton>/inviter/customize/share_dialog/close_button</inviterCustomizeShareDialogCloseButton>
+		<inviterCustomizeShareDialogSettingsButton>/inviter/customize/share_dialog/settings_button</inviterCustomizeShareDialogSettingsButton>
+		<inviterCustomizeNoFriendsDialog>/inviter/customize/nofriends_dialog</inviterCustomizeNoFriendsDialog>
+		<inviterCustomizeNoFriendsDialogSettingsButton>/inviter/customize/nofriends_dialog/settings_button</inviterCustomizeNoFriendsDialogSettingsButton>
+		<inviterCustomizeNoFriendsDialogSettingsLink>/inviter/customize/nofriends_dialog/settings_link</inviterCustomizeNoFriendsDialogSettingsLink>
+		<inviterCustomizeNoFriendsDialogCloseButton>/inviter/customize/nofriends_dialog/close_button</inviterCustomizeNoFriendsDialogCloseButton>
+		
+		<inviterCustomizeLeaveDialog>/inviter/customize/leavedialog</inviterCustomizeLeaveDialog>
+		<inviterCustomizeLeaveDialogLeaveButton>/inviter/customize/leavedialog/leave_button</inviterCustomizeLeaveDialogLeaveButton>
+		<inviterCustomizeLeaveDialogBackButton>/inviter/customize/leavedialog/back_button</inviterCustomizeLeaveDialogBackButton>
+
+		<inviterPrerecorded>/inviter/prerecorded</inviterPrerecorded>
+		<inviterPrerecordedPlayButton>/inviter/prerecorded/video[VIDEO_NUM]_play</inviterPrerecordedPlayButton>
+		<inviterPrerecordedSelectButton>/inviter/prerecorded/video[VIDEO_NUM]_selectbutton</inviterPrerecordedSelectButton>
+		<inviterPrerecordedBackToToolkitButton>/inviter/prerecorded/backtotoolkit_button</inviterPrerecordedBackToToolkitButton>
+		<inviterPrerecordedStartOverButton>/inviter/prerecorded/startover_button</inviterPrerecordedStartOverButton>
+		<inviterPrerecordedShareButton>/inviter/prerecorded/share_button</inviterPrerecordedShareButton>
+		<inviterPrerecordedGetUrlButton>/inviter/prerecorded/geturl_button</inviterPrerecordedGetUrlButton>
+
+		<inviterPrerecordedShareDialog>/inviter/prerecorded/sharedialog</inviterPrerecordedShareDialog>
+		<inviterPrerecordedShareDialogSettingsButton>/inviter/prerecorded/sharedialog/settings_button</inviterPrerecordedShareDialogSettingsButton>
+		<inviterPrerecordedShareDialogPublishButton>/inviter/prerecorded/sharedialog/publish_button</inviterPrerecordedShareDialogPublishButton>
+		<inviterPrerecordedShareDialogCloseButton>/inviter/prerecorded/sharedialog/close_button</inviterPrerecordedShareDialogCloseButton>
+		
+		<inviterPrerecordedNoFriendsDialog>/inviter/prerecorded/nofriendsdialog</inviterPrerecordedNoFriendsDialog>
+		<inviterPrerecordedNoFriendsDialogSettingsButton>/inviter/prerecorded/nofriendsdialog/settings_button</inviterPrerecordedNoFriendsDialogSettingsButton>
+		<inviterPrerecordedNoFriendsDialogSettingsLink>/inviter/prerecorded/nofriendsdialog/settings_link</inviterPrerecordedNoFriendsDialogSettingsLink>
+		<inviterPrerecordedeNoFriendsDialogCloseButton>/inviter/prerecorded/nofriendsdialog/close_button</inviterPrerecordedeNoFriendsDialogCloseButton>
+
+		<enforcer>/enforcer</enforcer>
+		<enforcerVideo>/enforcer/video[VIDEO_NUM]</enforcerVideo>
+		<enforcerVideoComplete>/enforcer/video[VIDEO_NUM]/complete</enforcerVideoComplete>
+		<enforcerVideoShareButton>/enforcer/video[VIDEO_NUM]/share_button</enforcerVideoShareButton>
+		<enforcerVideoGetUrlButton>/enforcer/video[VIDEO_NUM]/geturl_button</enforcerVideoGetUrlButton>
+		<enforcerShareDialog>/enforcer/share_dialog</enforcerShareDialog>
+		<enforcerShareDialogSettingsLink>/enforcer/share_dialog/settings_link</enforcerShareDialogSettingsLink>
+		<enforcerShareDialogPublishButton>/enforcer/share_dialog/publish_button</enforcerShareDialogPublishButton>
+		<enforcerShareDialogCancelButton>/enforcer/share_dialog/cancel_button</enforcerShareDialogCancelButton>
+		<enforcerShareDialogNoFriendsSettingsLink>/enforcer/share_dialog/nofriends_settings_link</enforcerShareDialogNoFriendsSettingsLink>
+
+		<reportCard>/reportcard</reportCard>
+		<reportCardGenerateButton>/reportcard/generate_button</reportCardGenerateButton>
+		<reportCardTeamDetail>/reportcard/teamdetail</reportCardTeamDetail>
+		<reportCardGradeSelected>/reportcard/grade_selected</reportCardGradeSelected>
+		<reportCardCommentSelected>/reportcard/comment_selected</reportCardCommentSelected>
+		<reportCardCommentEntered>/reportcard/comment_entered</reportCardCommentEntered>
+		<reportCardDefaultButton>/reportcard/default_button</reportCardDefaultButton>
+		<reportCardDownloadButton>/reportcard/download_button</reportCardDownloadButton>
+		<reportCardShareButton>/reportcard/share_button</reportCardShareButton>
+		<reportCardBackButton>/reportcard/back_button</reportCardBackButton>
+		<reportCardShareDialog>/reportcard/share_dialog</reportCardShareDialog>
+		<reportCardShareDialogSettingsButton>/reportcard/share_dialog/settings_button</reportCardShareDialogSettingsButton>
+		<reportCardShareDialogPublishButton>/reportcard/share_dialog/publish_button</reportCardShareDialogPublishButton>
+		<reportCardShareDialogCloseButton>/reportcard/share_dialog/close_button</reportCardShareDialogCloseButton>
+		<reportCardNoFriendsDialog>/reportcard/nofriends_dialog</reportCardNoFriendsDialog>
+		<reportCardNoFriendsDialogSettingsLink>/reportcard/nofriends_dialog/settings_link</reportCardNoFriendsDialogSettingsLink>
+		<reportCardNoFriendsDialogSettingsButton>/reportcard/nofriends_dialog/settings_button</reportCardNoFriendsDialogSettingsButton>
+		<reportCardNoFriendsDialogCloseButton>/reportcard/nofriends_dialog/close_button</reportCardNoFriendsDialogCloseButton>
+		<reportCardNoDraftDialog>/reportcard/nodraft_dialog</reportCardNoDraftDialog>
+		<reportCardNoDraftDialogBackButton>/reportcard/nodraft_dialog/back_button</reportCardNoDraftDialogBackButton>
+		
+	</metrics>
+	
+</data>

@@ -1,0 +1,5 @@
+#Allow from all
+#AuthType Basic
+#AuthName "w+k moderate - please login" 
+#AuthUserFile /var/www/vhosts/ffl.sportsr.us/moderation_src/.htpasswd
+#Require valid-user

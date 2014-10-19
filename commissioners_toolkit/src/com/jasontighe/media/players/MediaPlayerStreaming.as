@@ -1,0 +1,1 @@
+package com.jasontighe.media.players {	import com.jasontighe.media.objects.IMediaObjectStreaming;			public class MediaPlayerStreaming extends AbstractMediaPlayer implements IMediaPlayerStreaming	{		public function MediaPlayerStreaming( media:IMediaObjectStreaming, isPlaying:Boolean = false )		{									super( media, isPlaying );			}	}}

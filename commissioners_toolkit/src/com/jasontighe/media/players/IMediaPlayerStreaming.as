@@ -1,0 +1,1 @@
+package com.jasontighe.media.players {	public interface IMediaPlayerStreaming extends IMediaPlayer 	{	}}
