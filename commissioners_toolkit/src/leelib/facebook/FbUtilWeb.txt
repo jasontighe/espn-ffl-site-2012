@@ -1,0 +1,35 @@
+In parent page:
+
+		<script>        
+			function setCode($s)
+			{
+				var flash = document.getElementById("flash"); 
+				flash.onAuthorize($s);
+			}
+		</script>
+
+... where "flash" is the id of the SWF object
+
+
+*
+
+
+In the popup callback page:
+
+	<head>
+	
+		<script type=""text/javascript">
+		
+			opener.onFacebookCallback(location.href);
+			self.close();
+			
+		</script>
+	
+	</head>
+	
+	<html>
+	</html>
+
+*
+
+Done.
